@@ -1,0 +1,12 @@
+speed <- c(78.3,81.8,82,74.2,83.4,
+           84.5,82.9,77.5,80.9,70.6)
+print("Sorted Speed")
+print(sort(speed))
+print("Quartiles")
+print(quantile(speed))
+IQR_value <- IQR(speed)
+print("Interquartile Range")
+print(IQR_value)
+SD <- sd(speed)
+print("Standard Deviation")
+print(SD)
