@@ -1,0 +1,21 @@
+
+@relation money_transactions
+
+@attribute M {yes,no}
+@attribute O {yes,no}
+@attribute N {yes,no}
+@attribute K {yes,no}
+@attribute E {yes,no}
+@attribute Y {yes,no}
+@attribute D {yes,no}
+@attribute A {yes,no}
+@attribute U {yes,no}
+@attribute C {yes,no}
+@attribute I {yes,no}
+
+@data
+yes,yes,yes,yes,yes,yes,no,no,no,no,no
+no,yes,yes,yes,yes,yes,yes,no,no,no,no
+yes,no,no,yes,yes,no,no,yes,no,no,no
+yes,no,no,yes,no,yes,no,no,yes,yes,no
+no,yes,no,yes,yes,no,no,no,no,yes,yes
